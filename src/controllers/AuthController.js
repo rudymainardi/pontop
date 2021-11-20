@@ -158,7 +158,7 @@ module.exports = {
 
       return mailer.sendMail({
         to: email,
-        from: 'francasantos323@gmail.com',
+        from: 'pontop.suporte@gmail.com',
         template: 'auth/forgot_password',
         context: { token }
       }, (err) => {
